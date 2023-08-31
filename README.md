@@ -70,5 +70,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 <div>
-<img src="../todoapp/src/Assets/Capture.PNG" alt="Screenshot of the todo app">
+<a href="https://ibb.co/wy8BFY7"><img src="https://i.ibb.co/8MGNLXb/Capture.png" alt="Capture" border="0"></a>
 </div>
