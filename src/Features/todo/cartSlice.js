@@ -2,7 +2,7 @@ import { createSlice, nanoid } from '@reduxjs/toolkit';
 
 const initialState = {
   carts: [
-    { id: 1, name: 'shu',price:10,Total:10,Quantity:1 },
+    { id: 1, name: 'Women shirt',price:10,Total:10,Quantity:1 },
   ],
 };
 
