@@ -9,7 +9,7 @@ function App() {
       <div>
 
     <AddTodo/>
-    <Todo/>
+ 
       </div>
   
     </div>

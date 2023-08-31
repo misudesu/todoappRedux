@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {useDispatch} from  'react-redux'
-import { addTodo } from '../Features/todo/todoSlice'
+import { addTodo, upadteTodo } from '../Features/todo/todoSlice'
+import Todo from './Todo';
 function AddTodo() {
   const dispatch=useDispatch();
   const [input,setInput]=useState()
@@ -16,7 +17,9 @@ function AddTodo() {
     
       <input className='rounded-md text-white bg-gray-500 p-2 mx-2 place-items-end' type='text' value={input} placeholder='your name please!' onChange={(e)=>setInput(e.target.value)} />
 <button className='rounded-md w-20 p-2 bg-green-800 text-white mx-2' type='submit' >Add</button>
+
     </form>
+   <Todo input={input}/>
     </div>
   )
 }
