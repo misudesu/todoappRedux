@@ -17,8 +17,8 @@ function Todo(props) {
 
 <p>{todo.text}</p>
 
+<button onClick={()=>dispatch(updateTodo( {id:todo.id,text:props.input}))} className='bg-yellow-800 px-2 py-1 rounded-md'>Update</button>
 <button onClick={()=>dispatch(removeTodo(todo.id))} className='bg-red-800 px-2 py-1 rounded-md'>Delete</button>
-<button onClick={()=>dispatch(updateTodo( {id:todo.id,text:props.input}))} className='bg-red-800 px-2 py-1 rounded-md'>Update</button>
                 </div>
 
             </li>
